@@ -8,5 +8,10 @@ WORKDIR /home/app
 RUN npm install
 
 EXPOSE 5000
+npm install express
+npm install mongoose
+npm install body-parser
+npm install cors
+npm install dotenv
 
 CMD ["node", "index.js"]
