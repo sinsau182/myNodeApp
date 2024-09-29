@@ -6,8 +6,6 @@ app.get('/', (req, res) => {
     res.json({ message: 'Hello From Docker 🐳' });
 });
 
-
-
 app.get('/test', (req, res) => {
     res.json({ message: 'Hello From Docker 🐳' });
 });
