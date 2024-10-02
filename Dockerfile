@@ -5,7 +5,7 @@ COPY package.json /home/app/package.json
 
 WORKDIR /home/app
 
-RUN npm install
+RUN npm install bcrypt mongoose express
 
 EXPOSE 4000:0
 
