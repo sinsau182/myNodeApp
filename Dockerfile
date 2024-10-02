@@ -5,7 +5,7 @@ COPY package.json /home/app/package.json
 
 WORKDIR /home/app
 
-RUN npm install express mongo nodejs
+RUN npm install express mongo nodejjksdhfdsiufs
 
 EXPOSE 5000
 
